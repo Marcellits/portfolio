@@ -1,11 +1,53 @@
+* {
+  font-family: 'Helvetica Neue', sans-serif;
+}
 .App {
   text-align: center;
+  background-color: #03192D;
+  color: white
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* my name on top */
+
+
+
+.px-l5 {
+  padding-left: 5rem ;
+  padding-right: 5rem;
 }
+.flex {
+  display: flex ;
+}
+
+.pattern-dots-md {
+  background-image: radial-gradient(currentColor 1px, transparent 1px);
+  background-size: calc(10 * 1px) calc(10 * 1px) ;
+  width: 5vw;
+  height:18vh;
+}
+
+.my_name_bg {
+  color: #E7393F;
+}
+
+
+
+.my_name_text, .my_name_text_1  {  
+  margin: 2px -44px -10px -44px;
+  text-align: left;
+  color: #fff ;
+}
+
+.my_name_text  {
+  font-size: 3.2rem;
+  margin-top: 2.7rem;
+}
+.my_name_text_1 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,21 +56,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  ;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
+@keyframes pattern-dots-md {
   from {
     transform: rotate(0deg);
   }
