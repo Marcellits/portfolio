@@ -2,7 +2,23 @@
   font-family: 'Helvetica Neue', sans-serif;
   color: white;
   
+  
 }
+a, a:visited{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 1rem;
+}
+a:link
+{
+text-decoration:none;
+color: white;
+}
+a:hover{
+  border-bottom: 1px solid;
+  border-color: #E7393F;
+}
+
 .App {
   text-align: center;
   background-color: #03192D;
@@ -18,6 +34,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   
+}
+.components{
+  margin: 8rem;
 }
 
 .aboutme {
@@ -73,6 +92,22 @@
   justify-content: flex-end;
   
 }  
+
+/* submenu - home */
+.submenu{
+  margin-top: 18vh;
+  font-weight: lighter;
+  letter-spacing: 1.5rem;
+}
+
+/*contact*/
+.form-group{
+  display: grid;
+  justify-content: center;
+  margin-top: 1vh;
+  color: #5e5768;
+  
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
