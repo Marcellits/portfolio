@@ -1,12 +1,30 @@
 * {
   font-family: 'Helvetica Neue', sans-serif;
+  color: white;
+  
 }
 .App {
   text-align: center;
   background-color: #03192D;
-  color: white
+  
 }
 
+.App-header, .aboutme {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.aboutme {
+  background-image: radial-gradient(currentColor 1px, transparent 1px) contain;
+  background-size: calc(10 * 1px) calc(10 * 1px)  ;
+  color: #E7393F;
+}
 /* my name on top */
 
 
@@ -15,24 +33,22 @@
   padding-left: 5rem ;
   padding-right: 5rem;
 }
-.flex {
-  display: flex ;
-}
+
 
 .pattern-dots-md {
   background-image: radial-gradient(currentColor 1px, transparent 1px);
   background-size: calc(10 * 1px) calc(10 * 1px) ;
   width: 5vw;
   height:18vh;
-}
-
-.my_name_bg {
   color: #E7393F;
 }
 
+.my_name_box {
+  display: flex;
+}
 
 
-.my_name_text, .my_name_text_1  {  
+.my_name_text, .web_dev {  
   margin: 2px -44px -10px -44px;
   text-align: left;
   color: #fff ;
@@ -42,12 +58,21 @@
   font-size: 3.2rem;
   margin-top: 2.7rem;
 }
-.my_name_text_1 {
+.web_dev{
   font-size: 2rem;
   font-weight: 100;
 }
 
+/* navbar*/
 
+.navbar-brand {
+  font-size: 1rem;
+}
+
+.navbar {
+  justify-content: flex-end;
+  
+}  
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -55,16 +80,7 @@
   }
 }
 
-.App-header {
-  
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  ;
-}
+
 
 
 @keyframes pattern-dots-md {
