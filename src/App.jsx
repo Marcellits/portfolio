@@ -13,21 +13,20 @@ import {
 function App() {
   return (
     <>
-    <Router>
-      <div className="App">
+    <div className="App">
+      <Router>
         < Navbar/>
         <Switch>
-          <Route exact path="/">
-            <header className="App-header">
-              <Home />
-            </header>  
+          <Route exact path="/" component={Home}>
           </Route>
-          <Route path="/aboutme">
-            <Aboutme />
+          <Route path="/aboutme" component={Aboutme}>
           </Route>
         </Switch>
-      </div>
-    </Router>    
+      </Router> 
+    <footer className="footer">
+        <span class="text-muted">© 2020 Marcella Garcia</span>
+    </footer>
+    </div>   
     </>
   )}
 
