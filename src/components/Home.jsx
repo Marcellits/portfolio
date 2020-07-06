@@ -14,19 +14,25 @@ function Home() {
                     <h1 className="my_name_text">MARCELLA GARCIA</h1>
                     <h1 className="web_dev">WEB DEVELOPER </h1>
                 </div>
+                <div className="submenu">
+                  <a href="#projects">PROJECTS</a><span> | </span><a href="#skills">SKILLS</a> | <a href="#contact">CONTACT</a>
+                </div>
         </header>
-            <section>
-            <div className="projects">
-              <Projects/>
-            </div>
-            <div>
-              <Skills />
-            </div>
-            <div>
-              <Contact />
-            </div>   
-            </section>
-        
+        <section>
+          <div id="projects" className="projects">
+            <Projects/>
+          </div>
+        </section>
+        <section>
+          <div id="skills">
+            <Skills />
+          </div>
+        </section>
+        <section>
+          <div id="contact">
+            <Contact />
+          </div>   
+        </section>
     </div>  
   );
 }
