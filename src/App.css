@@ -1,9 +1,10 @@
 * {
   font-family: 'Helvetica Neue', sans-serif;
-  color: white;
-  
-  
 }
+body{
+  color: white;
+}
+
 a, a:visited{
   text-decoration: none;
   color: white;
@@ -15,8 +16,9 @@ text-decoration:none;
 color: white;
 }
 a:hover{
+  color: #FFE11F;
   border-bottom: 1px solid;
-  border-color: #E7393F;
+  border-color: #FFE11F;
 }
 
 .App {
@@ -42,11 +44,9 @@ a:hover{
 .aboutme {
   background-image: radial-gradient(currentColor 1px, transparent 1px) contain;
   background-size: calc(10 * 1px) calc(10 * 1px)  ;
-  color: #E7393F;
 }
+
 /* my name on top */
-
-
 
 .px-l5 {
   padding-left: 5rem ;
@@ -105,24 +105,30 @@ a:hover{
   display: grid;
   justify-content: center;
   margin-top: 1vh;
-  color: #5e5768;
+  color: #c7ccd1;
   
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*footer*/
+footer{
+  padding: 3vh 0px;
+  background-color: #03192D;
 }
 
+/*skills component*/
 
+#skills{
+  background: whitesmoke ;
+  color: #03192D;
+  padding: 4vh;
+}
 
-
-@keyframes pattern-dots-md {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col {
+  min-width: 300px;
+  max-width: 100%;
+  /*border: 1px solid black;*/
+  padding: 20px;
+}
+.row{
+  justify-content: center;
+  vertical-align: middle;
 }
