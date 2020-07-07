@@ -4,28 +4,48 @@ import React from 'react';
 const Aboutme = () => {
 
     return (
-       <div className="aboutme ">
-           <h2 > About me</h2>
-           <p>
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non quam vel odio dapibus euismod. 
-           Duis at tempor tellus. Nulla consectetur augue quis eleifend aliquam. Aliquam vestibulum nisi sed nunc convallis, 
-           vel lobortis eros tempus. Nunc nec dui nec turpis lacinia rhoncus sit amet a dui. Duis efficitur feugiat blandit. 
-           Integer sodales vulputate diam sed iaculis. Integer ultricies rhoncus ante at facilisis. Mauris tristique, 
-           orci id commodo rutrum, mauris turpis suscipit ex, sed congue ipsum ipsum maximus dui. Nam nisi sem, 
-           pretium non placerat auctor, venenatis at odio. Vestibulum blandit cursus tortor id luctus. 
-           Nunc eu lobortis arcu, a imperdiet arcu. Nullam sed tristique magna.
-
-           </p>
-            <p>
-            Ut scelerisque fringilla tellus eget volutpat. Duis interdum consequat iaculis. Pellentesque dolor quam, 
-            lobortis maximus purus nec, efficitur mollis ante. Vivamus at ex sit amet neque posuere volutpat. 
-            Sed sit amet quam vel turpis eleifend molestie. Vestibulum cursus, nunc eu tempor consectetur, 
-            sem mi vestibulum metus, consequat sagittis tortor tortor non felis. Nulla efficitur blandit tellus in porttitor. 
-            Vivamus vulputate ipsum ac nibh tempor tempus. Cras volutpat est non quam condimentum hendrerit. Sed sed nibh eleifend, 
-            convallis sem nec, pellentesque elit. Sed euismod, arcu finibus varius luctus, magna diam vulputate purus, 
-            a commodo metus est in erat. Nulla quis feugiat velit. Donec id auctor turpis. Vestibulum pretium at magna vel fermentum.
-
-            </p>
+       <div className="aboutme">
+           <h3 className="about_title"> ABOUT ME</h3>
+                <div className="quote_Eisntein">
+                    <h5 id="quote-text">
+                    "The important thing is not to stop questioning. 
+                    Curiosity has its own reason for existing.” 
+                    </h5>
+                    <h5 id="quote-author">Albert Einstein</h5> 
+                </div>
+                <div className="text-aboutme">
+                    <p>
+                    I always tried to understand the why of things, 
+                    so curiosity opened my mind to explore new worlds and allowed me to 
+                    acquire different types of knowledge. I’m the type of person who discusses arts 
+                    and philosophy with friends and 5 minutes later buys a book about python language 
+                    to start a new project.
+                    </p>
+                    <p>
+                    My competition is only against me and because of this I’m constantly challenging 
+                    myself and I never stop learning. For this reason, I became a Full Stack Web 
+                    Developer with expertise in Javascript, React, MongoDB, Express and Node.js. 
+                    I participated in projects such as the Easy Weather and Smart Agenda web applications 
+                    and produced several other smaller personal projects. 
+                    </p>
+                    <p>
+                    If you want to know more about me and my experience, 
+                    take a look at my social medias right below.
+                    </p>
+                </div>
+                
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a href="https://www.github.com/marcellits">
+                            <i class="fa fa-github fa-3x" aria-hidden="true"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/marcellits/">
+                            <i class="fa fa-linkedin-square fa-3x" aria-hidden="true" />
+                        </a>    
+                    </div>
+                </div>
+            </div>   
        </div>
     )
 }

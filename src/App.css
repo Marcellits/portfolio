@@ -3,6 +3,7 @@
 }
 body{
   color: white;
+  background-color: #03192D
 }
 
 a, a:visited{
@@ -15,19 +16,22 @@ a:link
 text-decoration:none;
 color: white;
 }
+
 a:hover{
   color: #FFE11F;
   border-bottom: 1px solid;
   border-color: #FFE11F;
 }
 
-.App {
-  text-align: center;
-  background-color: #03192D;
-  
+p{
+  text-align: justify;
 }
 
-.App-header, .aboutme {
+.App {
+  text-align: center;
+}
+
+.App-header {
   
   min-height: 100vh;
   display: flex;
@@ -35,15 +39,44 @@ a:hover{
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  
 }
+
+.aboutme{
+  margin: auto 7vw;
+  font-weight: 300;
+  font-size: calc(6px + 2vmin);
+}
+
+
+.about_title{
+  margin: 4.5vh auto;
+}
+
+.quote_Eisntein{
+  display: grid;
+  justify-content: center;
+  color: #308cc5;
+}
+
+#quote-text{
+  font-style: italic;
+  font-weight: 400;
+}
+
+#quote-author{
+  font-weight: 300;
+}
+
+.text-aboutme{
+  padding: 2rem;
+}
+
 .components{
   margin: 8rem;
 }
 
-.aboutme {
-  background-image: radial-gradient(currentColor 1px, transparent 1px) contain;
-  background-size: calc(10 * 1px) calc(10 * 1px)  ;
+i{
+  margin: 0 2rem 2rem 2rem; 
 }
 
 /* my name on top */
@@ -105,7 +138,7 @@ a:hover{
   display: grid;
   justify-content: center;
   margin-top: 1vh;
-  color: #c7ccd1;
+  color: #E3E6E8;
   
 }
 /*footer*/
