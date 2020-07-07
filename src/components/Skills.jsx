@@ -12,7 +12,7 @@ import Ps from "../images/Ps.png"
 const Skills = () => {
 
     return (
-        <div id="skills">
+        <div id="skills" >
             <h2 >SKILLS</h2>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non quam vel odio dapibus euismod. 
