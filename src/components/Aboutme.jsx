@@ -5,7 +5,7 @@ const Aboutme = () => {
 
     return (
        <div className="aboutme">
-           <h3 className="about_title"> ABOUT ME</h3>
+           <h3 className="title"> ABOUT ME</h3>
                 <div className="quote_Eisntein">
                     <h5 id="quote-text">
                     "The important thing is not to stop questioning. 
