@@ -31,22 +31,158 @@ p{
   text-align: center;
 }
 
-.App-header {
-  
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
 #projects, #skills{
   background:whitesmoke ;
   color: #03192D;
 }
 
-/* ABOUT ME */
+/* navbar*/
+
+.navbar-brand {
+  font-size: 1rem;
+}
+
+.navbar {
+  justify-content: flex-end;
+  
+}  
+.navbar-brand:hover{
+  border-color: #FFD166;
+  border-bottom: 1px solid;
+  
+}
+
+/* Header */
+
+.App-header {
+  min-height: 100vh;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding-bottom: 15vh;
+}
+
+/*ANIMATION*/
+
+#home_animation {
+  font-size: 12vw;
+  color: #06D6A0;
+  margin: 10vh auto;
+  font-family: sans-serif;
+}
+
+#span-animation {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+  color: white;
+}
+
+/* my name on top */
+
+
+.my_name_text, .web_dev {  
+  text-align: center;
+  color: #fff ;
+}
+
+.my_name_text  {
+  font-size: 7vh;
+
+}
+
+.web_dev{
+  font-size: 5.2vh;
+  font-weight: 100;
+  margin-top: -12px;
+  margin-bottom: 2rem;
+  color: #ef476f;
+}
+
+
+
+
+
+/* submenu - home */
+.submenu{
+  font-weight: lighter;
+  letter-spacing: 1.5rem;
+  font-size: calc(10px + 2vmin);
+}
+
+/*contact*/
+.form-group{
+  display: grid;
+  justify-content: center;
+  margin-top: 1vh;
+  color: #E3E6E8;
+  
+}
+/*footer*/
+footer{
+  padding: 3vh 0px;
+  background-color: #03192D;
+}
+
+/*skills component*/
+
+#skills{
+  margin-top: 6vh;
+  padding: 4vh;
+}
+
+.container{
+  justify-content: center;
+  text-align: center;
+}
+
+.row{
+  justify-content: center;
+}
+
+.col {
+  min-width: 4rem;
+  max-width: auto;
+  display: grid;
+  grid-gap: 10px;
+  padding:10px;
+  justify-content: center;
+  
+}
+
+.col img{
+  width:80%; 
+}
+
+img{
+  margin: auto;
+}
+
+
+
+/*projects*/
+
+#projects{
+  padding: 10vh 10vw;
+}
+
+.cards{
+  display: grid;
+  justify-content: center;
+  grid-gap: 5vw;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 400px));
+}
+
+.card{
+  display:flex;
+  background: #ef476f;
+  color: white;
+  border: none;
+  justify-content: center;
+}
+
+/* ABOUT ME PAGE */
 .aboutme{
   margin: auto 7vw;
   font-weight: 300;
@@ -78,121 +214,4 @@ p{
 
 i{
   margin: 0 2rem 2rem 2rem; 
-}
-
-/* my name on top */
-
-
-.my_name_text, .web_dev {  
-  /*margin: 0px -44px -10px -44px;*/
-  text-align: center;
-  color: #fff ;
-}
-
-.my_name_text  {
-  font-size: 3.2rem;
-  margin: 4rem 0px 0px 0px;
-}
-
-.web_dev{
-  font-size: 2.35rem;
-  font-weight: 100;
-  margin-top: -12px;
-  margin-bottom: 4rem;
-  color: #ef476f;
-}
-
-/* navbar*/
-
-.navbar-brand {
-  font-size: 1rem;
-}
-
-.navbar {
-  justify-content: flex-end;
-  
-}  
-.navbar-brand:hover{
-  border-color: #FFD166;
-  border-bottom: 1px solid;
-  
-}
-
-/* submenu - home */
-.submenu{
-  font-weight: lighter;
-  letter-spacing: 1.5rem;
-}
-
-/*contact*/
-.form-group{
-  display: grid;
-  justify-content: center;
-  margin-top: 1vh;
-  color: #E3E6E8;
-  
-}
-/*footer*/
-footer{
-  padding: 3vh 0px;
-  background-color: #03192D;
-}
-
-/*skills component*/
-
-#skills{
-  margin-top: 6vh;
-  padding: 4vh;
-}
-
-.col {
-  min-width: 300px;
-  max-width: 100%;
-  /*border: 1px solid black;*/
-  padding: 20px;
-}
-.row{
-  justify-content: center;
-  vertical-align: middle;
-}
-
-#projects{
-    padding: 4vh;
-}
-
-.cards{
-  display: flex;
-  justify-content: space-around;
-}
-
-.card{
-  display:flex;
-  /*flex: 1 1 auto;*/
-  background: #ef476f;
-  color: white;
-  border: none;
-}
-
-/*ANIMATION*/
-
-#home_animation {
-  font-size: 7em;
-  color: #06D6A0;
-  margin-bottom: 2rem;
-  margin-top: -6rem;
-  
-  height: 100%;
-  font-family: sans-serif;
-}
-
-#span-animation {
-  border-right: .05em solid;
-  animation: caret 1s steps(1) infinite;
-  color: white;
-}
-
-@keyframes caret {
-  50% {
-    border-color: transparent;
-  }
 }

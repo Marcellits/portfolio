@@ -31,28 +31,29 @@ const Skills = () => {
                         <img className="logos" src={React_logo} alt="React Logo"/>
                     </div>
                     <div class="col">
-                        <img className="logos" src={Bootstrap} alt="Bootstrap Logo"/>  
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
                         <img className="logos" src={Express} alt="Express Logo"/>
                     </div>
                     <div class="col">
                         <img className="logos" src={Node} alt="Node.js Logo"/>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col">
                         <img className="logos" src={MongoDB} alt="MongoDB Logo"/>
                     </div>
-                </div>    
-                <div class="row">
                     <div class="col">
                         <img className="logos" src={Mongoose} alt="Mongoose Logo"/>
                     </div>
                     <div class="col">
-                        <img className="logos" src={Ai} alt="Illustrator Logo"/>
+                        <img className="logos" src={Bootstrap} alt="Bootstrap Logo"/>  
+                    </div>
+                    <div class="col">
+                        <img className="logos " src={Ai} alt="Illustrator Logo"/>
+                    </div>
+                    <div class="col">
                         <img className="logos" src={Ps} alt="Photoshop Logo"/>
                     </div>
+        
                 </div>
             </div>    
         </div>

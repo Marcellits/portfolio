@@ -54,13 +54,11 @@ function Home() {
 
   return (
     <div>
-      <header className="my_name_box App-header w-90pc p-15 flex items-center justify-start">    
+      <header className="my_name_box App-header">    
         <h1 id="home_animation">Hello!</h1>   
-        <div>
         <div className="text_name_box">
           <h1 className="my_name_text">MARCELLA GARCIA</h1>
           <h1 className="web_dev">FULL STACK WEB DEVELOPER</h1>
-        </div>
         </div>
         <div className="submenu">
           <a href="#projects">PROJECTS</a>
@@ -69,7 +67,7 @@ function Home() {
           <span> | </span>
           <a href="#contact">CONTACT</a>
         </div>
-      </header>
+      </header>  
       <section id="projects" className="projects">
         <Projects/>
       </section>
