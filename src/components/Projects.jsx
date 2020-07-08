@@ -8,7 +8,7 @@ const Projects = () => {
         <div id="projects " >
             <h2  id="projects-title">PROJECTS</h2>
             <div className="cards">
-                <div className="card" style={{width: "25rem"}}>
+                <div className="card" >
                     <img className="card-img-top" src={Easy} alt="Imagem de capa do card"/>
                     <div className="card-body">
                         <h5 className="card-title">Easy Weather</h5>
@@ -20,7 +20,7 @@ const Projects = () => {
                         <a href="https://easy-weather-wyncode.herokuapp.com" class="btn btn-outline-light">Click here</a>
                     </div>
                 </div>
-                <div className="card" style={{width: "25rem"}}>
+                <div className="card">
                     <img className="card-img-top" src={Smart} alt="Imagem de capa do card"/>
                     <div className="card-body">
                         <h5 className="card-title">SmartAgenda</h5>
@@ -31,7 +31,6 @@ const Projects = () => {
                         <a href="https://smartagenda-wyncode.herokuapp.com" class="btn btn-outline-light">Click here</a>
                     </div>
                 </div>
-            
         </div>
         </div>
     )
