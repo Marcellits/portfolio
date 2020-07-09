@@ -15,10 +15,12 @@ const Skills = () => {
         <div id="skills" className="components">
             <h3 >SKILLS</h3>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non quam vel odio dapibus euismod. 
-            Duis at tempor tellus. Nulla consectetur augue quis eleifend aliquam. Aliquam vestibulum nisi sed nunc convallis, 
-            vel lobortis eros tempus. Nunc nec dui nec turpis lacinia rhoncus sit amet a dui. Duis efficitur feugiat blandit. 
-           
+            Being trained as a Full Stack Web developer by Wyncode Academy, 
+            I acquired extensive knowledge in Javascript and the React library for 
+            creating dynamic user interfaces. In addition, I use libraries like Bootstrap 
+            for manipulating and styling. Knowledge in database management using MongoDB 
+            and to develop server structure for web applications, I use Express and Node.js. 
+            Intermediate knowledge manipulating images and creating graphic designs.
             </p>
             <div class="container">
                 <div class="row">
