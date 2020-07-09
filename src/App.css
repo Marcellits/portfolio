@@ -14,13 +14,19 @@ body{
 }
 
 a:link{
-text-decoration:none;
-
+  text-decoration:none;
 }
 
 a:hover{
   color: #FFD166;
- 
+}
+
+h3{
+margin-bottom: 7vh ;
+color:#06D6A0;
+text-shadow: 1px 1px rgb(1, 131, 96);
+
+
 }
 
 p{
@@ -31,9 +37,17 @@ p{
   text-align: center;
 }
 
-#projects, #skills{
-  background:whitesmoke ;
-  color: #03192D;
+.components{
+  Padding: 10vh 4vw;
+ }
+
+.social-medias{
+  display: flex;
+  justify-content: space-around;
+}
+
+i{
+  margin: 2rem 2rem ; 
 }
 
 /* navbar*/
@@ -81,7 +95,6 @@ p{
 
 /* my name on top */
 
-
 .my_name_text, .web_dev {  
   text-align: center;
   color: #fff ;
@@ -89,7 +102,6 @@ p{
 
 .my_name_text  {
   font-size: 7vh;
-
 }
 
 .web_dev{
@@ -100,36 +112,36 @@ p{
   color: #ef476f;
 }
 
-
-
-
-
 /* submenu - home */
+
 .submenu{
   font-weight: lighter;
   letter-spacing: 1.5rem;
   font-size: calc(10px + 2vmin);
 }
 
-/*contact*/
-.form-group{
+
+.cards{
   display: grid;
   justify-content: center;
-  margin-top: 1vh;
-  color: #E3E6E8;
-  
+  grid-gap: 5vw;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 400px));
+  margin-top: 10vh;
 }
-/*footer*/
-footer{
-  padding: 3vh 0px;
-  background-color: #03192D;
+
+.card{
+  display:flex;
+  background: #ef476f;
+  color: white;
+  border: none;
+  justify-content: center;
 }
 
 /*skills component*/
 
 #skills{
-  margin-top: 6vh;
-  padding: 4vh;
+  background:whitesmoke ;
+  color: #03192D;
 }
 
 .container{
@@ -141,7 +153,7 @@ footer{
   justify-content: center;
 }
 
-.col {
+.col-logos {
   min-width: 4rem;
   max-width: auto;
   display: grid;
@@ -151,35 +163,41 @@ footer{
   
 }
 
-.col img{
-  width:80%; 
-}
-
 img{
   margin: auto;
+  width:70%; 
 }
 
+/* contact me */
 
-
-/*projects*/
-
-#projects{
-  padding: 10vh 10vw;
+.contact-me-container{
+  display: flex;
+  justify-content: space-around;
 }
 
-.cards{
+.form-group{
   display: grid;
   justify-content: center;
-  grid-gap: 5vw;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 400px));
+  margin-top: 1vh;
+  color: #E3E6E8;
+  text-align: left;
+  width: fit-content;
+}
+.form-control{
+  width:40vw;
 }
 
-.card{
-  display:flex;
-  background: #ef476f;
-  color: white;
-  border: none;
-  justify-content: center;
+.follow-me-box{
+  display: grid;
+  align-items: center;
+  height:40vh;
+}
+
+/*footer*/
+
+footer{
+  padding: 3vh 0px;
+  background-color: #03192D;
 }
 
 /* ABOUT ME PAGE */
@@ -212,6 +230,4 @@ img{
   padding: 2rem;
 }
 
-i{
-  margin: 0 2rem 2rem 2rem; 
-}
+
