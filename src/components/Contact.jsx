@@ -26,15 +26,16 @@ const Contact = () => {
           data: new FormData(form)
         })
           .then(r => {
-            handleServerResponse(true, "Thanks!", form);
+            handleServerResponse(true, "Thank you for your Message! We will respond as soon as possible.", form);
           })
           .catch(r => {
             handleServerResponse(false, r.response.data.error, form);
           });
       };
     return (
-        <div className="components">
+        <div className="components" id="contact-me">
             <h3>CONTACT ME</h3>
+            <div className="contact-me-container">
             <form  onSubmit={handleOnSubmit}>
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
@@ -49,12 +50,30 @@ const Contact = () => {
                     <textarea className="form-control" name="message" id="message" rows="5"></textarea>
                 </div>
                 <button type="submit" className="btn btn-outline-danger" disabled={serverState.submitting}>Send</button>
-                {serverState.status && (
+                <div>
+                  {serverState.status && (
                     <p className={!serverState.status.ok ? "errorMsg" : ""}>
+                        <p>
                         {serverState.status.msg}
+                        </p>
                     </p>
-                )}   
+                  )}
+                </div>   
             </form>
+            <div className="follow-me-box">
+                <h4>Follow me!</h4>
+                <div className="row social-medias">
+                    <div class="col">
+                        <a href="https://www.github.com/marcellits">
+                            <i class="fa fa-github fa-4x" aria-hidden="true"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/marcellits/">
+                            <i class="fa fa-linkedin-square fa-4x" aria-hidden="true" />
+                        </a>    
+                    </div>
+                </div>
+            </div>
+            </div>   
         </div>
     )
 }

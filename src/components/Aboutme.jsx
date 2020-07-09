@@ -33,15 +33,14 @@ const Aboutme = () => {
                     take a look at my social medias right below.
                     </p>
                 </div>
-                
-            <div class="container">
-                <div class="row">
-                    <div class="col">
+            <div className="container social-medias">
+                <div className="row">
+                    <div className="col">
                         <a href="https://www.github.com/marcellits">
-                            <i class="fa fa-github fa-3x" aria-hidden="true"/>
+                            <i className="fa fa-github fa-3x" aria-hidden="true"/>
                         </a>
                         <a href="https://www.linkedin.com/in/marcellits/">
-                            <i class="fa fa-linkedin-square fa-3x" aria-hidden="true" />
+                            <i className="fa fa-linkedin-square fa-3x" aria-hidden="true" />
                         </a>    
                     </div>
                 </div>

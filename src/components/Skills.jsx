@@ -12,45 +12,43 @@ import Ps from "../images/Ps.png"
 const Skills = () => {
 
     return (
-        <div id="skills" >
-            <h2 >SKILLS</h2>
+        <div id="skills" className="components">
+            <h3 >SKILLS</h3>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non quam vel odio dapibus euismod. 
             Duis at tempor tellus. Nulla consectetur augue quis eleifend aliquam. Aliquam vestibulum nisi sed nunc convallis, 
             vel lobortis eros tempus. Nunc nec dui nec turpis lacinia rhoncus sit amet a dui. Duis efficitur feugiat blandit. 
-            Integer sodales vulputate diam sed iaculis. Integer ultricies rhoncus ante at facilisis. 
-            Mauris tristique, orci id commodo rutrum, mauris turpis suscipit ex, 
-            sed congue ipsum ipsum maximus dui. Nam nisi sem, pretium non placerat auctor, venenatis at odio.
+           
             </p>
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-logos">
                         <img className="logos" src={JS} alt="Javascript Logo"/>
                     </div>
-                    <div class="col">
+                    <div class="col-logos">
                         <img className="logos" src={React_logo} alt="React Logo"/>
                     </div>
-                    <div class="col">
+                    <div class="col-logos">
                         <img className="logos" src={Express} alt="Express Logo"/>
                     </div>
-                    <div class="col">
+                    <div class="col-logos">
                         <img className="logos" src={Node} alt="Node.js Logo"/>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-logos">
                         <img className="logos" src={MongoDB} alt="MongoDB Logo"/>
                     </div>
-                    <div class="col">
+                    <div class="col-logos">
                         <img className="logos" src={Mongoose} alt="Mongoose Logo"/>
                     </div>
-                    <div class="col">
+                    <div class="col-logos">
                         <img className="logos" src={Bootstrap} alt="Bootstrap Logo"/>  
                     </div>
-                    <div class="col">
+                    <div class="col-logos">
                         <img className="logos " src={Ai} alt="Illustrator Logo"/>
                     </div>
-                    <div class="col">
+                    <div class="col-logos">
                         <img className="logos" src={Ps} alt="Photoshop Logo"/>
                     </div>
         
