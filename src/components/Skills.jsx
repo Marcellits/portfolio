@@ -13,9 +13,9 @@ const Skills = () => {
 
     return (
         <div id="skills" className="components">
-            <h3 >SKILLS</h3>
+            <h1 className="title-component">SKILLS</h1>
             <p>
-            Being trained as a Full Stack Web developer by Wyncode Academy, 
+            Being trained as a Full Stack Web developer by <a id="wyncode-link" href="https://www.wyncode.co">Wyncode Academy</a>, 
             I acquired extensive knowledge in Javascript and the React library for 
             creating dynamic user interfaces. In addition, I use libraries like Bootstrap 
             for manipulating and styling. Knowledge in database management using MongoDB 

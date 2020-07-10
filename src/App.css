@@ -21,12 +21,10 @@ a:hover{
   color: #FFD166;
 }
 
-h3{
+.title-component{
 margin-bottom: 7vh ;
 color:#06D6A0;
 text-shadow: 1px 1px rgb(1, 131, 96);
-
-
 }
 
 p{
@@ -49,6 +47,8 @@ p{
 i{
   margin: 2rem 2rem ; 
 }
+
+
 
 /* navbar*/
 
@@ -76,6 +76,7 @@ i{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   padding-bottom: 15vh;
+  width: 99vw;
 }
 
 /*ANIMATION*/
@@ -118,14 +119,20 @@ i{
   font-weight: lighter;
   letter-spacing: 1.5rem;
   font-size: calc(10px + 2vmin);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
+
+
+
+/* Projects */
 
 .cards{
   display: grid;
   justify-content: center;
   grid-gap: 5vw;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 400px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
   margin-top: 10vh;
 }
 
@@ -162,6 +169,18 @@ i{
   justify-content: center;
   
 }
+#wyncode-link{
+  color: #ef476f;
+}
+#wyncode-link:visited{
+  text-decoration: none;
+  color: #06D6A0;
+  margin-bottom: 1rem;
+}
+
+a:link{
+  text-decoration:none;
+}
 
 img{
   margin: auto;
@@ -171,26 +190,22 @@ img{
 /* contact me */
 
 .contact-me-container{
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
 }
+
 
 .form-group{
   display: grid;
-  justify-content: center;
   margin-top: 1vh;
   color: #E3E6E8;
   text-align: left;
-  width: fit-content;
-}
-.form-control{
-  width:40vw;
 }
 
 .follow-me-box{
   display: grid;
   align-items: center;
-  height:40vh;
 }
 
 /*footer*/
@@ -231,3 +246,15 @@ footer{
 }
 
 
+@media only screen and (max-width: 600px) {
+  .contact-me-container{
+    grid-template-columns: 1fr ;
+    row-gap: 80px;
+  }
+  .submenu{
+    
+    grid-template-columns: 1fr ;
+    row-gap: 20px;
+  }
+
+}
