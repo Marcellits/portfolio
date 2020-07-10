@@ -12,7 +12,7 @@ import Ps from "../images/Ps.png"
 const Skills = () => {
 
     return (
-        <div id="skills" className="components">
+        <div className="components">
             <h1 className="title-component">SKILLS</h1>
             <p>
             Being trained as a Full Stack Web developer by <a id="wyncode-link" href="https://www.wyncode.co">Wyncode Academy</a>, 

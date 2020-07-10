@@ -142,7 +142,7 @@ i{
 .cards{
   display: grid;
   justify-content: center;
-  grid-gap: 5vw;
+  grid-gap: 10vw;
   grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
   margin-top: 10vh;
 }
@@ -158,7 +158,7 @@ i{
 /*skills component*/
 
 #skills{
-  background:whitesmoke ;
+  background:whitesmoke;
   color: #03192D;
 }
 
