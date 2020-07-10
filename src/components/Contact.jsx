@@ -65,12 +65,15 @@ const Contact = () => {
                 <div className="row social-medias">
                     <div class="col">
                         <a href="https://www.github.com/marcellits">
-                            <i class="fa fa-github fa-4x" aria-hidden="true"/>
+                          <i class="fa fa-github fa-4x" aria-hidden="true"/>
                         </a>
                         <a href="https://www.linkedin.com/in/marcellits/">
-                            <i class="fa fa-linkedin-square fa-4x" aria-hidden="true" />
-                        </a>    
-                    </div>
+                          <i class="fa fa-linkedin-square fa-4x" aria-hidden="true" />
+                        </a>  
+                        <a href="https://twitter.com/_marcellits_">
+                          <i class="fa fa-twitter-square fa-4x" aria-hidden="true"/>
+                        </a>
+                      </div>
                 </div>
             </div>
             </div>   
