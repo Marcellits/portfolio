@@ -34,7 +34,7 @@ const Contact = () => {
       };
     return (
         <div className="components" id="contact-me">
-            <h3>CONTACT ME</h3>
+            <h1 className="title-component">CONTACT ME</h1>
             <div className="contact-me-container">
             <form  onSubmit={handleOnSubmit}>
                 <div className="form-group">

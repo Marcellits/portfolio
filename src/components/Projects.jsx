@@ -6,7 +6,7 @@ const Projects = () => {
 
     return (
         <div id="projects " className="components" >
-            <h3  id="projects-title">PROJECTS</h3>
+            <h1  id="projects-title" className="title-component">PROJECTS</h1>
             <div className="cards">
                 <div className="card" >
                     <img className="card-img-top" src={Easy} alt="Imagem de capa do card"/>

@@ -5,8 +5,7 @@ import Contact from './Contact';
 
 function Home() {
 
-  /*HOME ANIMATION
-  CONTENT EXTRACT FROM */ 
+  /*HOME ANIMATION*/
   
 
   document.addEventListener('DOMContentLoaded',function(event){
@@ -61,11 +60,16 @@ function Home() {
           <h1 className="web_dev">FULL STACK WEB DEVELOPER</h1>
         </div>
         <div className="submenu">
-          <a href="#projects">PROJECTS</a>
-          <span> | </span>
-          <a href="#skills">SKILLS</a>
-          <span> | </span>
-          <a href="#contact">CONTACT</a>
+          <div>
+            <a href="#projects"> PROJECTS </a>
+          </div>
+          <div>
+            <a href="#skills"> SKILLS </a>
+          </div>
+          <div>
+            <a href="#contact"> CONTACT </a>
+          </div>
+          
         </div>
       </header>  
       <section id="projects" className="projects">

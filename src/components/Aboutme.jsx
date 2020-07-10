@@ -5,7 +5,7 @@ const Aboutme = () => {
 
     return (
        <div className="aboutme">
-           <h3 className="title"> ABOUT ME</h3>
+           <h3 className=" title title-component"> ABOUT ME</h3>
                 <div className="quote_Eisntein">
                     <h5 id="quote-text">
                     "The important thing is not to stop questioning. 
@@ -22,10 +22,9 @@ const Aboutme = () => {
                     to start a new project.
                     </p>
                     <p>
-                    My competition is only against me and because of this I’m constantly challenging 
-                    myself and I never stop learning. For this reason, I became a Full Stack Web 
+                    I’m constantly challenging myself and I never stop learning. For this reason, I became a Full Stack Web                    
                     Developer with expertise in Javascript, React, MongoDB, Express and Node.js. 
-                    I participated in projects such as the Easy Weather and Smart Agenda web applications 
+                    I participated in projects such as Easy Weather and Smart Agenda web applications 
                     and produced several other smaller personal projects. 
                     </p>
                     <p>
