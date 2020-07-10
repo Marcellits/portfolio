@@ -59,8 +59,8 @@ function Home() {
       </div>   
          
         <div className="text_name_box">
-          <h1 className="my_name_text">MARCELLA GARCIA</h1>
-          <h1 className="web_dev">FULL STACK WEB DEVELOPER</h1>
+          <h1 className="my_name_text"> Marcella Garcia</h1>
+          <h2 className="web_dev"> Full Stack Web Developer </h2>
         </div>
         <div className="submenu">
           <div>
