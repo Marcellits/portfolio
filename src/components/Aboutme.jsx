@@ -40,6 +40,9 @@ const Aboutme = () => {
                         </a>
                         <a href="https://www.linkedin.com/in/marcellits/">
                             <i className="fa fa-linkedin-square fa-3x" aria-hidden="true" />
+                        </a>
+                        <a href="https://twitter.com/_marcellits_">
+                          <i class="fa fa-twitter-square fa-3x" aria-hidden="true"/>
                         </a>    
                     </div>
                 </div>

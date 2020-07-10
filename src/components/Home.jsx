@@ -53,21 +53,24 @@ function Home() {
 
   return (
     <div>
-      <header className="my_name_box App-header">    
-        <h1 id="home_animation">Hello!</h1>   
+      <header className="App-header"> 
+      <div id= "bg-animation-box">
+        <h1 id="home_animation">Hello!</h1> 
+      </div>   
+         
         <div className="text_name_box">
           <h1 className="my_name_text">MARCELLA GARCIA</h1>
           <h1 className="web_dev">FULL STACK WEB DEVELOPER</h1>
         </div>
         <div className="submenu">
           <div>
-            <a href="#projects"> PROJECTS </a>
+            <a className="submenu-name" href="#projects"> PROJECTS </a>
           </div>
           <div>
-            <a href="#skills"> SKILLS </a>
+            <a className="submenu-name" href="#skills"> SKILLS </a>
           </div>
           <div>
-            <a href="#contact"> CONTACT </a>
+            <a className="submenu-name" href="#contact"> CONTACT </a>
           </div>
           
         </div>
