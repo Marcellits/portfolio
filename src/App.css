@@ -1,5 +1,5 @@
 * {
-  font-family: 'Helvetica Neue', sans-serif;
+  Font-Family: 'Monda', Sans-Serif;
 }
 
 body{
@@ -76,7 +76,7 @@ i{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   padding-bottom: 15vh;
-  width: 99vw;
+  width: 100vw;
 }
 
 /*ANIMATION*/
@@ -106,30 +106,33 @@ i{
 }
 
 .my_name_text  {
-  font-size: 7vh;
-  color:#06D6A0;
+  font-size: 10vh;
+  color:#06D3AB;
+  Font-Family: 'Julius Sans One', Sans-Serif;
 
 }
 
 .web_dev{
-  font-size: 5.2vh;
   font-weight: 100;
-  margin-top: -12px;
-  margin-bottom: 2rem;
+  letter-spacing: 9px;
   color: #ef476f;
+  margin: -20px auto 10px auto;
 }
 
 /* submenu - home */
 
 .submenu{
-  font-weight: lighter;
-  letter-spacing: 1.5rem;
-  font-size: calc(10px + 2vmin);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+    font-weight: lighter;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    border-top: white dashed 1px;
+    margin: 0 auto;
 }
+
 .submenu-name{
   justify-content: center;
+  padding:10px;
 }
 
 
@@ -182,7 +185,7 @@ i{
 }
 #wyncode-link:visited{
   text-decoration: none;
-  color: #06D6A0;
+  color: #06D3AB;
   margin-bottom: 1rem;
 }
 
@@ -237,7 +240,7 @@ footer{
 .quote_Eisntein{
   display: grid;
   justify-content: center;
-  color:#06D6A0 ;
+  color:#06D3AB;
 }
 
 #quote-text{
@@ -255,14 +258,32 @@ footer{
 
 
 @media only screen and (max-width: 600px) {
+  
+  .my_name_text  {
+    font-size: 10vw;
+    color:#06D3AB;
+    Font-Family: 'Julius Sans One', Sans-Serif;
+  }
+  
+  .web_dev{
+    font-size: 5vw;
+    letter-spacing: 0px;
+    color: #ef476f;
+    margin: -5px 0 0 0;
+  }
+  .col-logos {
+    min-width: 70px;
+    max-width: 120px;
+    display: grid;
+    grid-gap: 5px;
+    padding:5px;
+    justify-content: center;
+    
+  }
   .contact-me-container{
     grid-template-columns: 1fr ;
-    row-gap: 80px;
+    grid-row-gap: 80px;
   }
-  .submenu{
-    
-    grid-template-columns: 1fr ;
-    row-gap: 20px;
-  }
+
 
 }
