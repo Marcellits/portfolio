@@ -153,6 +153,7 @@ i{
   color: white;
   border: none;
   justify-content: center;
+  transform:translate(30px, 30px);
 }
 
 /*skills component*/
@@ -271,6 +272,19 @@ footer{
     color: #ef476f;
     margin: -5px 0 0 0;
   }
+
+  .cards{
+    grid-gap: 15vw;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 270px));
+    margin-top: 10vh;
+  }
+  
+
+  .card{
+    transform:translate(10px, 10px);
+    grid-gap: 100px;
+  }
+
   .col-logos {
     min-width: 70px;
     max-width: 120px;
@@ -284,6 +298,6 @@ footer{
     grid-template-columns: 1fr ;
     grid-row-gap: 80px;
   }
-
+  
 
 }
