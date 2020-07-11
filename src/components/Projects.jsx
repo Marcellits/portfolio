@@ -9,7 +9,7 @@ const Projects = () => {
             <h1  id="projects-title" className="title-component">PROJECTS</h1>
             <div className="cards">
                 <div className="pattern-diagonal-lines-sm gray-lighter">
-                    <div className="card" style={{transform:"translate(30px, 30px)"}} >
+                    <div className="card"  >
                         <img className="card-img-top" src={Easy} alt="Imagem de capa do card"/>
                         <div className="card-body">
                             <h5 className="card-title">Easy Weather</h5>
@@ -23,7 +23,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="pattern-diagonal-lines-sm gray-lighter">
-                    <div className="card" style={{transform:"translate(30px, 30px)"}}>
+                    <div className="card" >
                         <img className="card-img-top" src={Smart} alt="Imagem de capa do card"/>
                         <div className="card-body">
                             <h5 className="card-title">SmartAgenda</h5>
