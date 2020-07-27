@@ -53,6 +53,7 @@ const Projects = () => {
                                 Next Tech Trivia is an interactive game for Google Cloud Next '20: OnAir'. 
                                 Our amazing team developed dynamic app so the user can enjoy an awesome experience! 
                                 If user answers 4-5 questions correctly, user can spin the wheel for a prize!
+                                <br/>
                                 This project is coded in Javascript + MERN Stack. To build spin wheel, 
                                 we applied Canvas. We also used 3 API's:
                                 Gitfit as rewards, SendGrid to send emails to users, and 

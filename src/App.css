@@ -143,7 +143,7 @@ i{
   display: grid;
   justify-content: center;
   grid-gap: 10vw;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
   margin-top: 10vh;
 }
 
