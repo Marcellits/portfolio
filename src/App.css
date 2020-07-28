@@ -156,6 +156,10 @@ i{
   transform:translate(30px, 30px);
 }
 
+.font-text-card{
+  font-size: 12px;
+}
+
 /*skills component*/
 
 #skills{
@@ -276,13 +280,15 @@ footer{
   .cards{
     grid-gap: 15vw;
     grid-template-columns: repeat(auto-fit, minmax(200px, 270px));
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
   }
-  
 
   .card{
     transform:translate(10px, 10px);
     grid-gap: 100px;
+  }
+  .card-text{
+    font-size: 10px;
   }
 
   .col-logos {
@@ -298,12 +304,6 @@ footer{
     grid-template-columns: 1fr ;
     grid-row-gap: 80px;
   }
-  .card-text{
-    font-size: 10px;
-    display: hidden;
-  }
-  .card-text:hover{
-    display:block;
-  }
+ 
 
 }
