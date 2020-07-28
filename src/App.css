@@ -76,7 +76,7 @@ i{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   padding-bottom: 15vh;
-  width: 100vw;
+  width: 99vw;
 }
 
 /*ANIMATION*/
@@ -143,7 +143,7 @@ i{
   display: grid;
   justify-content: center;
   grid-gap: 10vw;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 330px));
   margin-top: 10vh;
 }
 
@@ -300,6 +300,10 @@ footer{
   }
   .card-text{
     font-size: 10px;
+    display: hidden;
+  }
+  .card-text:hover{
+    display:block;
   }
 
 }
