@@ -14,7 +14,7 @@ const Projects = () => {
                         <img className="card-img-top" src={Easy} alt="Imagem de capa do card"/>
                         <div className="card-body">
                             <h5 className="card-title">Easy Weather</h5>
-                            <p className="card-text">
+                            <p className="card-text font-text-card">
                             Easy Weather is a React app that pulls weather information and 
                             displays tips about the weather condition of the day. 
                             Just type the name of the city and voilà!   
@@ -32,7 +32,7 @@ const Projects = () => {
                         <img className="card-img-top" src={Smart} alt="Imagem de capa do card"/>
                         <div className="card-body">
                             <h5 className="card-title">SmartAgenda</h5>
-                            <p className="card-text">
+                            <p className="card-text font-text-card">
                                 SmartAgenda is a web application for business owners to keep track of client information
                                 as well as appointments which are displayed on their calendar. 
                                 Javascript, MongoDB, React, Express and Node.js were used to develop this project and used 
@@ -49,7 +49,7 @@ const Projects = () => {
                         <img className="card-img-top" src={Trivia} alt="Imagem de capa do card"/>
                         <div className="card-body">
                             <h5 className="card-title">Next Tech Trivia</h5>
-                            <p className="card-text">
+                            <p className="card-text font-text-card">
                                 Next Tech Trivia is an interactive game for Google Cloud Next '20: OnAir'. 
                                 Our amazing team developed dynamic app so the user can enjoy an awesome experience! 
                                 If user answers 4-5 questions correctly, user can spin the wheel for a prize!
