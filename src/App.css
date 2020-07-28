@@ -275,7 +275,7 @@ footer{
 
   .cards{
     grid-gap: 15vw;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 270px));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 270px));
     margin-top: 10vh;
   }
   
@@ -298,6 +298,8 @@ footer{
     grid-template-columns: 1fr ;
     grid-row-gap: 80px;
   }
-  
+  .card-text{
+    font-size: 10px;
+  }
 
 }
