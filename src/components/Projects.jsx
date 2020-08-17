@@ -2,6 +2,7 @@ import React from "react";
 import Easy from "../images/Easyweather.png";
 import Smart from "../images/Smartagenda.png";
 import Trivia from "../images/trivia.gif";
+import Tictactoe from "../images/tictactoe.png";
 
 const Projects = () => {
   const projs = [
@@ -28,6 +29,14 @@ const Projects = () => {
       text:
         " Next Tech Trivia is an interactive game for Google Cloud Next '20: OnAir. Our amazing team developed dynamic app so the usercan enjoy an awesome experience! If user answers 4-5 questions correctly, user can spin the wheel for a prize! This project is coded in Javascript + MERN Stack. To build spin wheel, we applied Canvas. We also used 3 API's: Gitfit as rewards, SendGrid to send emails to users, and Cloudinary to store images.",
       href: "https://github.com/Marcellits/trivia-game",
+    },
+    {
+      name: "React SuperGames",
+      source: Tictactoe,
+      alt: "React Games screenshot",
+      text:
+        " React SuperGames is a web application with well known games. All of them are built using JavaScript + REACT.",
+      href: "https://react-supergames.netlify.app/",
     },
   ];
 
